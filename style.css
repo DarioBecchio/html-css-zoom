@@ -6,8 +6,10 @@ box-sizing: border-box;
 
 /*common*/
 .container{
-    width:90%;
+    width:95%;
     margin: auto;
+    max-width: 1152px;
+    margin-top: 10px;
    
 }
 .row{
@@ -41,16 +43,33 @@ img{
 /*main*/
 #site_main{
     height:100vh;
+    overflow: hidden;
 }
 .col-7{
-    width:calc(100%/7);
+    width: calc(100%/7);
     aspect-ratio: 1 / 1;
 }
 /*endmain*/
 /*footer*/
+
 #site_footer{
-height: 70px;
-background-color: black;
+height: 80px;
+background-color: rgb(44, 43, 43);
 color: white;
+
+
+
+
 }
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display:flex
+}
+
+
 /*endfooter*/
