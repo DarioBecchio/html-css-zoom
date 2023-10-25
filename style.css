@@ -1,0 +1,56 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+/*common*/
+.container{
+    width:90%;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+/*endcommon*/
+
+/*debug*/
+
+
+.debug #site_main{
+    background-color: rgba(222, 184, 135, 0.295);
+}
+.debug #site_footer{
+    background-color: rgba(210, 105, 30, 0.37);
+}
+.debug .container{
+    border: 2px solid black;
+}
+.debug .col-7{
+    border: 2px dashed red;
+}
+/*enddebug*/
+
+/*main*/
+#site_main{
+    height:100vh;
+}
+.col-7{
+    width:calc(100%/7);
+    aspect-ratio: 1 / 1;
+}
+/*endmain*/
+/*footer*/
+#site_footer{
+height: 70px;
+background-color: black;
+color: white;
+}
+/*endfooter*/
